@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets Data</title>
+    <link rel="stylesheet" href="../5-styles_css/styles.css">
+    <style>
+        .center {
+            display: flex; /* Utilise Flexbox pour aligner les éléments */
+            justify-content: center; /* Centre les éléments horizontalement */
+            flex-direction: column; /* Aligne les éléments en colonne */
+            align-items: center; /* Centre les éléments horizontalement */
+            margin: 20px 0; /* Ajoute un espacement vertical autour de la section */
+        }
+        .photo-container {
+            text-align: center; /* Centre le texte sous l'image */
+            margin: 10px; /* Ajoute un espacement autour de chaque conteneur d'image */
+        }
+        .photo-container img {
+            max-width: 100%; /* Limite la largeur de l'image au conteneur */
+            height: auto; /* Assure que l'image conserve son ratio */
+            border: 1px solid #ccc; /* Optionnel : ajoute une bordure autour de l'image */
+            border-radius: 5px; /* Optionnel : arrondit les coins de l'image */
+        }
+    </style>
+</head>
+<body>
+    <header class="contact-info">
+        <p>📍 Adresse : Toulouse, France</p>
+        <p>📧 Email : stephanepaul21@yahoo.fr</p>
+        <p>📞 Téléphone : +33 6 73 31 23 97</p>
+    </header>
+
+<nav class="navigation">
+        <ul>
+            <li><a href="../1-index/1-index.html">Accueil</a></li>
+            <li><a href="../2-fr/2-index-fr.html">Mon CV</a></li>
+            <li><a href="../2-fr/4-project3-fr.html">Projets Data</a></li>
+            <li><a href="../2-fr/5-experience3-fr.html">Expériences Professionnelles</a></li>
+            <li><a href="../2-fr/6-education-fr.html">Formations</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <header class="header">
+            <h1>Projets Data</h1>
+        </header>
+        <nav class="navigation">
+            <ul>
+                <li><a href="../2-fr/4-project3-fr.html">NETFIX</a></li>
+                <li><a href="../2-fr/4-project2-fr.html">TOY'S & MODELS</a></li>
+                <li><a href="../2-fr/4-project1-fr.html">FR-CARBURANT</a></li>
+            </ul>
+        </nav>
+        <main class="section">
+            <div class="card">
+                <h3>FR-CARBURANT : Python, SQL & BI Project</h3>
+                <h3>Aout 2024 - Septembre 2024</h3>
+                <p>Bienvenue dans notre projet innovant de création d'un tableau de bord interactif pour la comparaison des prix du gasoil en France.</p>
+                <p>Ce projet, entrepris avant ma formation officielle, représente un défi personnel que je me suis lancé pour évaluer mes compétences initiales et me familiariser avec les aspects pratiques du métier de Data Analyst.</p>
+
+                <h4>Contexte</h4>
+                <p>En résidant à la place du Capitole à Toulouse et propriétaire d'un véhicule diesel, j'avais besoin d'un outil efficace pour accéder rapidement aux prix du gasoil dans les stations-service environnantes. L'objectif était de cibler les stations les moins chères dans un rayon ajustable afin de réaliser des économies substantielles.</p>
+
+                <h4>Les Données</h4>
+                <p>Les données proviennent de data.gouv.fr et ont été traitées à l'aide de Python (Pandas, Géocoding), puis stockées dans une base de données MySQL. La visualisation des résultats a été réalisée via Power BI, permettant ainsi un suivi précis et en temps réel des prix du gasoil.</p>
+
+                <h4>Le Dashboard</h4>
+                <p>Notre tableau de bord interactif offre les fonctionnalités suivantes :</p>
+                <ul>
+                    <li>Visualisation des prix du gasoil dans toutes les stations-service de France, avec une focalisation géographique sur Toulouse.</li>
+                    <li>Calcul de la distance entre les stations de carburant et mon adresse via la formule de Haversine.</li>
+                    <li>Identification rapide des stations les moins chères dans un rayon défini et ajustable.</li>
+                    <li>Mise à jour automatisée des prix et affichage en temps réel.</li>
+                    <li>Affichage de la moyenne des prix lorsque plusieurs stations sont sélectionnées.</li>
+                </ul>
+
+                <h4>L'impact</h4>
+                <p>Bien que ce tableau de bord réponde initialement à un besoin personnel, il peut également servir aux entreprises de transport pour optimiser leurs coûts de carburant, générant ainsi des économies significatives.</p>
+
+                <h4>Axe d'amélioration</h4>
+                <p>Pour une version future du projet, les améliorations envisagées comprennent :</p>
+                                <ul>
+                    <li>Utiliser la position réelle pour un calcul plus précis des distances.</li>
+                    <li>Intégrer des distances routières pour une précision accrue.</li>
+                    <li>Améliorer l'interface utilisateur pour plus d'intuitivité.</li>
+                </ul>
+
+                <p>Et qui sait, peut-être qu'un jour, à défaut de publier la version 2, l'axe d'amélioration sera tout simplement de passer à 𝐥'é𝐥𝐞𝐜𝐭𝐫𝐢𝐪𝐮𝐞 ! ⚡😄</p>
+
+                <p>Ce projet démontre comment l'analyse de données peut résoudre des problèmes pratiques et créer des solutions utiles. Découvrez ci-après quelques images de notre tableau de bord pour FR-CARBURANT. 🚗📊🔧</p>
+
+                <p>Ci-après quelques images des dashboards :</p>
+                
+                <div class="center">
+                    <div class="photo-container">
+                        <img src="../4-files_pictures/FRC1.jpeg" alt="Projet FR-CARBURANT">
+                        <p>Dashboard FR-CARBURANT - Vue à l'échelle de la France</p>
+                    </div>
+                </div>
+
+                <div class="center">
+                    <div class="photo-container">
+                        <img src="../4-files_pictures/FRC2.jpeg" alt="Projet FR-CARBURANT">
+                        <p>Dashboard FR-CARBURANT - Rayon de 250KM autour de Toulouse</p>
+                    </div>
+                </div>
+
+                <div class="center">
+                    <div class="photo-container">
+                        <img src="../4-files_pictures/FRC3.jpeg" alt="Projet FR-CARBURANT">
+                        <p>Dashboard FR-CARBURANT - Vue sur Toulouse</p>
+                    </div>
+                </div>
+
+                <nav class="navigation">
+            <ul>
+                <li><a href="../2-fr/4-project3-fr.html">NETFIX</a></li>
+                <li><a href="../2-fr/4-project2-fr.html">TOY'S & MODELS</a></li>
+                <li><a href="../2-fr/4-project1-fr.html">FR-CARBURANT</a></li>
+            </ul>
+        </nav>
+
+                <a href="../2-fr/2-index-fr.html" class="back-link">Retour</a>
+            </div>
+
+            <footer class="footer">
+            <p>Contactez-moi : stephanepaul21@yahoo.fr | +33.6.73.31.23.97</p>
+            <p>&copy; 2024 - ENGONE MOUITY Paul Stephane</p>
+        </footer>
+        
+        </main>
+</body>
+</html>

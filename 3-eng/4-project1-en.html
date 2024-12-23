@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Projects</title>
+    <link rel="stylesheet" href="../5-styles_css/styles.css">
+    <style>
+        .center {
+            display: flex; /* Utilise Flexbox pour aligner les éléments */
+            justify-content: center; /* Centre les éléments horizontalement */
+            flex-direction: column; /* Aligne les éléments en colonne */
+            align-items: center; /* Centre les éléments horizontalement */
+            margin: 20px 0; /* Ajoute un espacement vertical autour de la section */
+        }
+        .photo-container {
+            text-align: center; /* Centre le texte sous l'image */
+            margin: 10px; /* Ajoute un espacement autour de chaque conteneur d'image */
+        }
+        .photo-container img {
+            max-width: 100%; /* Limite la largeur de l'image au conteneur */
+            height: auto; /* Assure que l'image conserve son ratio */
+            border: 1px solid #ccc; /* Optionnel : ajoute une bordure autour de l'image */
+            border-radius: 5px; /* Optionnel : arrondit les coins de l'image */
+        }
+    </style>
+</head>
+<body>
+    <header class="contact-info">
+        <p>📍 Address : Toulouse, France</p>
+        <p>📧 Mail : stephanepaul21@yahoo.fr</p>
+        <p>📞 Phone : +33 6 73 31 23 97</p>
+    </header>
+
+<nav class="navigation">
+        <ul>
+            <li><a href="../1-index/1-index.html">Homepage</a></li>
+            <li><a href="../3-eng/2-index-en.html">Resume</a></li>
+            <li><a href="../3-eng/4-project3-en.html">Data Projects</a></li>
+            <li><a href="../3-eng/5-experience3-en.html">Work Experience</a></li>
+            <li><a href="../3-eng/6-education-en.html">Education</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <header class="header">
+            <h1>Data Projects</h1>
+        </header>
+        <nav class="navigation">
+            <ul>
+                <li><a href="../3-eng/4-project3-en.html">NETFIX</a></li>
+                <li><a href="../3-eng/4-project2-en.html">TOY'S & MODELS</a></li>
+                <li><a href="../3-eng/4-project1-en.html">FR-CARBURANT</a></li>
+            </ul>
+        </nav>
+        <main class="section">
+            <div class="card">
+                <h3>FR-CARBURANT : Python, SQL & BI Project</h3>
+                <h3>August 2024 - September 2024</h3>
+                <p>Welcome to our innovative project to create an interactive dashboard for comparing diesel prices in France.</p>
+                <p>This project, undertaken before my formal training, represents a personal challenge that I set myself to evaluate my initial skills and familiarize myself with the practical aspects of the Data Analyst profession.</p>
+
+                <h4>Context</h4>
+                <p>Living in Toulouse's Place du Capitole and owning a diesel vehicle, I needed an efficient tool to quickly access diesel prices at nearby service stations. The aim was to target the cheapest stations within an adjustable radius, in order to make substantial savings.</p>
+
+                <h4>Data</h4>
+                <p>The data came from data.gouv.fr and were processed using Python (Pandas, Geocoding), then stored in a MySQL database. The results were visualized using Power BI, enabling precise, real-time monitoring of diesel prices.</p>
+
+                <h4>Dashboard</h4>
+                <p>Our interactive dashboard offers the following features:</p>
+                <ul>
+                    <li>View diesel prices at all service stations in France, with a geographical focus on Toulouse.</li>
+                    <li>Calculate the distance between fuel stations and my address using Haversine's formula.</li>
+                    <li>Quick identification of the cheapest stations within a defined, adjustable radius.</li>
+                    <li>Automated price updates and real-time display.</li>
+                    <li>Display average prices when several stations are selected.</li>
+                </ul>
+
+                <h4>The impact</h4>
+                <p>Although this dashboard is initially designed for personal use, it can also be used by transport companies to optimize their fuel costs, generating significant savings.</p>
+
+                <h4>Areas for improvement</h4>
+                <p>For a future version of the project, improvements include :</p>
+                                <ul>
+                    <li>Use actual position to calculate distances more accurately.</li>
+                    <li>Integrate road distances for greater precision.</li>
+                    <li>Enhance user interface for greater intuitiveness.</li>
+                </ul>
+
+                <p>And who knows, maybe one day, failing the release of version 2, the focus of improvement will simply be to switch to electric cars! ⚡ 😄</p>
+
+                <p>This project demonstrates how data analysis can solve practical problems and create useful solutions. Here are some images of our dashboard for FR-CARBURANT. 🚗📊🔧</p>
+
+                <p>Here are a few dashboard images :</p>
+                
+                <div class="center">
+                    <div class="photo-container">
+                        <img src="../4-files_pictures/FRC1.jpeg" alt="Projet FR-CARBURANT">
+                        <p>FR-CARBURANT Dashboard - France-wide view</p>
+                    </div>
+                </div>
+
+                <div class="center">
+                    <div class="photo-container">
+                        <img src="../4-files_pictures/FRC2.jpeg" alt="Projet FR-CARBURANT">
+                        <p>Dashboard FR-CARBURANT - 250KM radius around Toulouse</p>
+                    </div>
+                </div>
+
+                <div class="center">
+                    <div class="photo-container">
+                        <img src="../4-files_pictures/FRC3.jpeg" alt="Projet FR-CARBURANT">
+                        <p>Dashboard FR-CARBURANT - View over Toulouse</p>
+                    </div>
+                </div>
+
+                <nav class="navigation">
+            <ul>
+                <li><a href="../3-eng/4-project3-en.html">NETFIX</a></li>
+                <li><a href="../3-eng/4-project2-en.html">TOY'S & MODELS</a></li>
+                <li><a href="../3-eng/4-project1-en.html">FR-CARBURANT</a></li>
+            </ul>
+        </nav>
+
+                <a href="../3-eng/2-index-en.html" class="back-link">Back</a>
+            </div>
+
+            <footer class="footer">
+            <p>Contact : stephanepaul21@yahoo.fr | +33.6.73.31.23.97</p>
+            <p>&copy; 2024 - ENGONE MOUITY Paul Stephane</p>
+        </footer>
+        
+        </main>
+</body>
+</html>

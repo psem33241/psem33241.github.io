@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formations</title>
+    <link rel="stylesheet" href="../5-styles_css/styles.css">
+    <style>
+        .center {
+            display: flex; /* Utilise Flexbox pour aligner les éléments */
+            justify-content: center; /* Centre les éléments horizontalement */
+            flex-direction: column; /* Aligne les éléments en colonne */
+            align-items: center; /* Centre les éléments horizontalement */
+            margin: 20px 0; /* Ajoute un espacement vertical autour de la section */
+        }
+        .photo-container {
+            text-align: center; /* Centre le texte sous l'image */
+            margin: 10px; /* Ajoute un espacement autour de chaque conteneur d'image */
+        }
+        .photo-container img {
+            max-width: 100%; /* Limite la largeur de l'image au conteneur */
+            height: auto; /* Assure que l'image conserve son ratio */
+            border: 1px solid #ccc; /* Optionnel : ajoute une bordure autour de l'image */
+            border-radius: 5px; /* Optionnel : arrondit les coins de l'image */
+        }
+    </style>
+</head>
+<body>
+    <header class="contact-info">
+        <p>📍 Adresse : Toulouse, France</p>
+        <p>📧 Email : stephanepaul21@yahoo.fr</p>
+        <p>📞 Téléphone : +33 6 73 31 23 97</p>
+    </header>
+
+<nav class="navigation">
+        <ul>
+            <li><a href="../1-index/1-index.html">Accueil</a></li>
+            <li><a href="../2-fr/2-index-fr.html">Mon CV</a></li>
+            <li><a href="../2-fr/4-project3-fr.html">Projets Data</a></li>
+            <li><a href="../2-fr/5-experience3-fr.html">Expériences Professionnelles</a></li>
+            <li><a href="../2-fr/6-education-fr.html">Formations</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <header class="header">
+            <h1>Formations</h1>
+        </header>
+        <main class="section">
+                <div class="card">
+                    <h3>WILD CODE SCHOOL : Bootcamp en analyse de données (Data Analyst) </h3>
+                    <h3>TOULOUSE : Septembre 2024 - Février 2025</h3>
+                    <ul>
+                        <li>Tableurs et SQL : Introduction à Excel, modélisation et requête de bases de données SQL, et création d’un tableau de bord.</li><br>
+                        <li>Python et Data Cleaning : Retraitement et nettoyage des données avec Python, NumPy et Pandas, et visualisation des données.</li><br>
+                        <li>Machine Learning : Introduction au Machine Learning avec scikit-learn, incluant régressions, classifications et clustering, ainsi que l'analyse de sentiment en NLP.</li><br>
+                        <li>Web Scraping et API : Collecte de données via web scraping, connexion aux API REST et lecture de formats JSON.</li>
+                        <li>Business Intelligence : Utilisation de Tableau ou PowerBI et réalisation de projets réels en réponse à des briefs clients.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>UNIVERSITE DE PAU ET DES PAYS DE L'ADOUR : Master Génie Pétrolier</h3>
+                    <h3>PAU : Septembre 2015 - Décembre 2018</h3>
+                    <ul>
+                        <li>Caractérisation des Réservoirs : Techniques avancées pour analyser et interpréter les données de réservoir afin de mieux comprendre les propriétés et le comportement des réservoirs pétroliers.</li><br>
+                        <li>Modélisation des Écoulements : Utilisation de logiciels de simulation pour modéliser les écoulements de fluides dans les réservoirs et prédire la performance de la production.</li><br>
+                        <li>Gestion des Réservoirs : Stratégies pour gérer les réservoirs de manière efficace, maximiser la récupération des hydrocarbures et prolonger la durée de vie des champs pétroliers.</li><br>
+                        <li>Optimisation de la Production : Méthodes pour optimiser les opérations de production, y compris l'utilisation de techniques de récupération assistée et l'analyse de la performance des puits.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>UNIVERSITE DE LORRAINE : Licences Sciences Pour l'ingénieur - Mécanique et Génie Civil</h3>
+                    <h3>METZ : Septembre 2012 - Juillet 2015</h3>
+                    <ul>
+                        <li>Conception et Analyse Mécanique : Apprentissage des outils de modélisation, simulation et analyse de systèmes mécaniques complexes, incluant la dynamique des structures et la mécanique des fluides.</li><br>
+                        <li>Ingénierie des Matériaux et Structures : Connaissance des propriétés des matériaux et techniques d'analyse structurelle pour évaluer la résistance et la stabilité des infrastructures civiles.</li><br>
+                        <li>Modélisation et Validation : Mobilisation des outils mathématiques pour la modélisation et validation de modèles en les comparant aux résultats expérimentaux, tout en appréciant leurs limites de validité.</li><br>
+                        <li>Algorithmique et Programmation : Mise en œuvre de techniques d'algorithmique et de programmation pour développer des solutions informatiques efficaces et résoudre des problèmes complexes, notamment en utilisant des logiciels de CAO pour synthétiser et analyser des schémas électriques.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>LYCEE MONSEIGNEUR BESSIEUX : Baccalaureat scientifique</h3>
+                    <h3>LIBREVILLE : Juillet 2012</h3>
+                    <ul>
+                        <li>Connaissances Scientifiques Solides : Maîtrise des principes fondamentaux en mathématiques, physique, chimie, et biologie, formant une base solide pour des études scientifiques et techniques avancées.</li><br>
+                        <li>Raisonnement Analytique : Développement de compétences en résolution de problèmes, pensée critique et raisonnement logique grâce à des exercices pratiques et théoriques.</li><br>
+                        <li>Techniques de Recherche et Expérimentation : Acquisition de méthodologies de recherche et de pratiques expérimentales, incluant la conduite d'expériences, l'analyse de données et la rédaction de rapports scientifiques.</li><br>
+                    </ul>
+                </div>
+                <a href="../2-fr/2-index-fr.html" class="back-link">Retour</a>
+
+                <footer class="footer">
+            <p>Contactez-moi : stephanepaul21@yahoo.fr | +33.6.73.31.23.97</p>
+            <p>&copy; 2024 - ENGONE MOUITY Paul Stephane</p>
+        </footer>
+        </main>
+
+    </div>
+</body>
+</html>
