@@ -302,3 +302,42 @@ body::before {
         max-width: 100%;
     }
 }
+
+/* Style de la navigation */
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centre horizontalement les éléments de la navigation */
+    padding: 1rem; /* Espacement interne pour le confort visuel */
+}
+
+/* Liste des éléments de navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centre les éléments horizontalement */
+    gap: 1.5rem; /* Espacement entre les éléments de la liste */
+    padding: 0;
+    margin: 0;
+}
+
+/* Liens de navigation */
+nav ul li {
+    margin: 0; /* Enlève les marges par défaut */
+}
+
+/* Style des liens */
+nav ul li a {
+    color: var(--primary-color); /* Couleur du texte */
+    text-decoration: none; /* Enlève le soulignement */
+    font-size: clamp(1rem, 2vw, 1.2rem); /* Taille du texte responsive */
+    padding: 0.5rem 1rem; /* Espacement interne pour chaque lien */
+    border-radius: 5px; /* Bord arrondi */
+    transition: all 0.3s ease;
+}
+
+/* Effet au survol des liens */
+nav ul li a:hover {
+    background-color: var(--secondary-color); /* Couleur de fond au survol */
+    color: white; /* Couleur du texte au survol */
+}
