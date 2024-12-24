@@ -341,3 +341,63 @@ nav ul li a:hover {
     background-color: var(--secondary-color); /* Couleur de fond au survol */
     color: white; /* Couleur du texte au survol */
 }
+
+
+/* Style de la navigation */
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centre les éléments horizontalement */
+    padding: 1rem; /* Ajoute un peu de padding autour */
+}
+
+/* Liste des éléments de navigation */
+.navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centre les éléments horizontalement */
+    gap: 1.5rem; /* Espacement entre les éléments */
+    padding: 0;
+    margin: 0;
+}
+
+/* Liens de navigation */
+.navigation ul li {
+    margin: 0;
+}
+
+/* Style des liens */
+.navigation ul li a {
+    color: var(--primary-color); /* Couleur du texte */
+    text-decoration: none; /* Enlève le soulignement */
+    font-size: clamp(1rem, 2vw, 1.2rem); /* Taille du texte responsive */
+    padding: 0.5rem 1rem; /* Espacement interne des liens */
+    border-radius: 5px; /* Bord arrondi */
+    transition: all 0.3s ease;
+}
+
+/* Effet de survol des liens */
+.navigation ul li a:hover {
+    background-color: var(--secondary-color); /* Couleur au survol */
+    color: white; /* Changement de couleur du texte */
+}
+
+/* Media Queries pour les petits écrans */
+@media (max-width: 768px) {
+    .navigation ul {
+        flex-direction: column; /* Change l'orientation de la liste en verticale */
+        align-items: center; /* Centre les éléments sur l'axe horizontal */
+        gap: 1rem; /* Espace plus grand entre les éléments */
+    }
+}
+
+@media (max-width: 480px) {
+    .navigation ul {
+        gap: 0.75rem; /* Ajuste l'espacement pour les très petits écrans */
+    }
+
+    .navigation ul li a {
+        font-size: clamp(0.9rem, 4vw, 1rem); /* Réduit légèrement la taille du texte */
+        padding: 0.4rem 0.8rem; /* Ajuste l'espacement interne des liens */
+    }
+}
