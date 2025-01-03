@@ -169,11 +169,19 @@ body::before {
     gap: 20px;
 }
 
+@media (max-width: 480px) {
+    .navigation ul {
+        flex-direction: column; /* Empile les éléments verticalement */
+        align-items: center; /* Aligne les éléments au centre */
+    }
+
+
 .navigation ul li {
     flex: 1;  /* Chaque élément prend un espace égal */
     text-align: center; /* Centrer le texte */
+    margin-bottom: 10px; /* Espacement entre les éléments */
 }
-
+}
 .navigation ul li a {
     color: var(--primary-color);
     text-decoration: none;
