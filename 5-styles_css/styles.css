@@ -163,25 +163,17 @@ body::before {
 .navigation ul {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;  /* Permettre aux éléments de passer à la ligne */
+    flex-wrap: wrap; 
     justify-content: center;
     padding: 0;
     gap: 20px;
 }
 
-@media (max-width: 480px) {
-    .navigation ul {
-        flex-direction: column; /* Empile les éléments verticalement */
-        align-items: center; /* Aligne les éléments au centre */
-    }
-
-
 .navigation ul li {
-    flex: 1;  /* Chaque élément prend un espace égal */
-    text-align: center; /* Centrer le texte */
-    margin-bottom: 10px; /* Espacement entre les éléments */
+    flex: 1;  
+    text-align: center; 
 }
-}
+
 .navigation ul li a {
     color: var(--primary-color);
     text-decoration: none;
@@ -190,12 +182,25 @@ body::before {
     border: 2px solid transparent;
     border-radius: 5px;
     transition: all 0.3s ease;
-
 }
 
 .navigation ul li a:hover {
     border-color: var(--secondary-color);
     background-color: #ffedea;
+}
+
+/* Media queries */
+@media (max-width: 480px) {
+    .navigation ul {
+        flex-direction: column; 
+        align-items: center; 
+        padding: 0; /* Enlève le padding si pas nécessaire */
+    }
+
+    .navigation ul li {
+        margin-bottom: 10px; /* Ajoute un espace entre les éléments */
+        width: 100%; /* Permet aux boutons de prendre toute la largeur */
+    }
 }
 
 /* Boutons communs */
