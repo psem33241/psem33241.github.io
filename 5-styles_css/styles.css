@@ -36,13 +36,14 @@ body::before {
 }
 
 /* Header Contact Info */
-.contact-info {
+header.contact-info {
     background: #ffffff;
     padding: 10px 20px;
+    margin: 10pc;
     border-bottom: 1px solid #ddd;
-    display: flex;
-    flex-direction: column; /* Permet de centrer le contenu verticalement */
-    align-items: center; /* Centre le contenu horizontalement */
+    display: flex important;
+    flex-direction: column important; /* Permet de centrer le contenu verticalement */
+    align-items: center important; /* Centre le contenu horizontalement */
     font-size: 0.9rem;
     color: #666;
     position: sticky;
