@@ -41,8 +41,8 @@ body::before {
     padding: 10px 20px;
     border-bottom: 1px solid #ddd;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column; /* Permet de centrer le contenu verticalement */
+    align-items: center; /* Centre le contenu horizontalement */
     font-size: 0.9rem;
     color: #666;
     position: sticky;
@@ -51,9 +51,16 @@ body::before {
 }
 
 .contact-info p {
-    margin: 0;
+    margin: 5px 0; /* Ajout d'un peu d'espace entre les paragraphes */
+    text-align: center; /* Centre également le texte */
 }
 
+/* Media queries pour les petits écrans */
+@media (max-width: 480px) {
+    .contact-info {
+        padding: 10px 10px; /* Réduit le padding sur les petits écrans */
+    }
+}
 /* Page d'accueil */
 .welcome-page {
     text-align: center;
