@@ -42,8 +42,8 @@ header.contact-info {
     margin: 10pc;
     border-bottom: 1px solid #ddd;
     display: flex important;
-    flex-direction: column important; /* Permet de centrer le contenu verticalement */
-    align-items: center important; /* Centre le contenu horizontalement */
+    flex-direction: column; /* Permet de centrer le contenu verticalement */
+    align-items: center; /* Centre le contenu horizontalement */
     font-size: 0.9rem;
     color: #666;
     position: sticky;
