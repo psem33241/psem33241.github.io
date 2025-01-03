@@ -36,14 +36,13 @@ body::before {
 }
 
 /* Header Contact Info */
-header.contact-info {
+.contact-info {
     background: #ffffff;
     padding: 10px 20px;
-    margin: 10pc;
     border-bottom: 1px solid #ddd;
     display: flex;
-    flex-direction: column; /* Permet de centrer le contenu verticalement */
-    align-items: center; /* Centre le contenu horizontalement */
+    justify-content: space-between;
+    align-items: center;
     font-size: 0.9rem;
     color: #666;
     position: sticky;
@@ -52,16 +51,9 @@ header.contact-info {
 }
 
 .contact-info p {
-    margin: 5px 0; /* Ajout d'un peu d'espace entre les paragraphes */
-    text-align: center; /* Centre également le texte */
+    margin: 0;
 }
 
-/* Media queries pour les petits écrans */
-@media (max-width: 480px) {
-    .contact-info {
-        padding: 10px 10px; /* Réduit le padding sur les petits écrans */
-    }
-}
 /* Page d'accueil */
 .welcome-page {
     text-align: center;
